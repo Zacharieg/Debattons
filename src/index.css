@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,600;0,700;1,500;1,600;1,700&family=Dela+Gothic+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    h1 {
+        @apply font-bold text-4xl font-display mb-5 text-colorPrimary
+    }
+
+    h2 {
+        @apply font-bold text-xl font-display mb-3
+    }
+
+    p {
+        @apply text-lg mb-3
+    }
+
+    b {
+        @apply text-colorPrimary
+    }
+
+    svg {
+        @apply inline h-6
+    }
+
+    .card-primary {
+        @apply bg-colorSecondary text-colorBgPrimary rounded-md p-5
+    }
+
+    .card-secondary {
+        @apply bg-colorBgSecondary rounded-md p-5
+    }
+    
+}
