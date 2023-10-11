@@ -2,6 +2,8 @@
 
 Application web pour jouer entre amis ! 
 
+Le jeu est accessible à tous à l'adresse : https://debattons.zacharie-guet.fr/
+
 ## Règle du jeu
  
 Dans ce jeu de débat, chaque joueur.euse est en compétition avec les autres pour devenir <b>le meilleur orateur</b>, ou du moins le plus convainquant.
@@ -15,8 +17,9 @@ A la fin de chaque débat, les joueurs.euses n'ayant pas participé <b>votent po
 A la fin de la partie <b>celui/celle qui aura gagné le plus de débat l'emportera</b>. Alors, prêt à débattre ?
 
 ## Installation
+
 ```
-https://github.com/Zacharieg/Debattons.git
+git clone https://github.com/Zacharieg/Debattons.git
 cd Debattons
 npm i
 npm run dev
